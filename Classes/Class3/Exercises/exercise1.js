@@ -38,3 +38,5 @@ function divideNumbers (num1, num2) {
 
 let myResult4 = divideNumbers(4, 2);
 console.log(myResult4);
+
+
