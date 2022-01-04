@@ -7,8 +7,9 @@ function orderedFullNames (names, surnames) {
     for (let i = 0; i < names.length; i++) {
         resultArray.push(`${i+1}.  ${names[i]} ${surnames[i]}`);
     }
-    console.log(resultArray);
+    // console.log(resultArray);
     return resultArray;
 }
 
 let test = orderedFullNames(myNames, mySurnames);
+console.log(test);

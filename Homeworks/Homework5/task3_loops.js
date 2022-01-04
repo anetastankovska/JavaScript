@@ -17,7 +17,7 @@ function sumMaxMin (array) {
         }
     }
     let sum = max + min;
-    console.log(sum);
+    // console.log(sum);
     return sum;
 }
 
@@ -42,7 +42,7 @@ function sumMaxMinTwo (arrayTwo) {
         }
     }
     let sum = max + min;
-    console.log(sum);
+    // sconsole.log(sum);
     return sum;
 }
 
@@ -50,4 +50,6 @@ function sumMaxMinTwo (arrayTwo) {
 let arayOfNumbers = ["a", 5, 14, 1, 73, 32, 9, "b", 17, ""];
 let arayOfNumbersTwo = ["f", 5, 14, "e", 3, 73, 32, 9, "d", 17, ""];
 let calculate = sumMaxMin(arayOfNumbers);
+console.log(calculate);
 let calculateTwo = sumMaxMin(arayOfNumbersTwo);
+console.log(calculateTwo);

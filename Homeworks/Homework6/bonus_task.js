@@ -38,6 +38,7 @@ element.innerHTML = table;
 return ingredients;
 }
 let test = printIngredients(numberOfIngredients, changedDiv);
+console.log(test);
 
 
 

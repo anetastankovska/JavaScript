@@ -18,9 +18,10 @@ function sumNumbers (arr) {
         }
         
     } 
-    console.log(sum);
+    // console.log(sum);
     return sum;
 }
 
 let arrayOfNumbers = [2, 3, 4, 5, 6];
 let calculateSumOfNumbers = sumNumbers(arrayOfNumbers);
+console.log(calculateSumOfNumbers);
