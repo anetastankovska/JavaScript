@@ -1,7 +1,7 @@
 // Solution 1: Filtering the array that contains different types of elements by creating new array that will contain only numbers
 function sumMaxMin (array) {
     let newArray = [];
-    for (j = 0; j <= array.length; j++) {
+    for (let j = 0; j <= array.length; j++) {
         if (typeof array[j] === "number") {
             newArray.push(array[j]);
         }
@@ -9,7 +9,7 @@ function sumMaxMin (array) {
 
     let max = newArray[0];
     let min = newArray[0];
-    for (i = 0; i <= newArray.length; i++) {
+    for (let i = 0; i <= newArray.length; i++) {
         if (newArray[i] > max) {
             max = newArray[i];
         } else if (newArray[i] < min) {
@@ -23,22 +23,22 @@ function sumMaxMin (array) {
 
 
 // Solution 2: Working on the initial array that contains different types of elements using  tha continue expression
-function sumMaxMinTwo (arrayTwo) {
+function sumMaxMinTwo (array) {
     let max = null;
     let min = null;
-    for (i = 0; i <= arrayTwo.length; i++) {
-        if (typeof arrayTwo[i] != "number") {
+    for (let i = 0; i <= array.length; i++) {
+        if (typeof array[i] != "number") {
             continue;
         }
         if (max === null) {
-            max = arrayTwo[i];
-            min = arrayTwo[i];
+            max = array[i];
+            min = array[i];
             continue;
         }
         if (arrayTwo[i] > max) {
-            max = arrayTwo[i];
-        } else if (arrayTwo[i] < min) {
-            min = arrayTwo[i];
+            max = array[i];
+        } else if (array[i] < min) {
+            min = array[i];
         }
     }
     let sum = max + min;
