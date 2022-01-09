@@ -57,6 +57,9 @@ function pronounceNumber (number) {
     let temp = number % 1000;
     let iterCounter = 0;
     let result = [];
+    if (number === 0) {
+        return "Zero";
+    }
     while (number > 0) {
         if (temp > 0) {
 
