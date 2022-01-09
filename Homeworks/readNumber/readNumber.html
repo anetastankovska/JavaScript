@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read number</title>
+    <style>
+        #container {
+            width: 50vw;
+            border: 2px solid black;
+            padding: 2%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pronounce a number</h1>
+    <p>This app will pronounce every number (integer) you enter from 0 (zero) to 999 000 000 000 000 (nine hundred ninety nine trillion)</p>
+    </br>
+    <div id="container">
+        <label for="num">Input a number</label>
+        <br>
+        </br>
+        <input id ="typeNumber" type="number" name="number" min="0">
+        <input id ="submitNumber" onclick="displayNumber()" type="submit" value="submit">
+        </br>
+        <p id="displayResult">Result</p>
+    </div>
+
+    <script src="readNumber.js"></script>
+</body>
+</html>
