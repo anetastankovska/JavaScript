@@ -1,4 +1,4 @@
-//Exercise 2
+/*Exercise 2 Write a JavaScript program that will calculate the price of 30 Phones, where the price of one phone is $119.95 and the tax rate is 5%.*/
 console.log("Exercise 2");
 
 let phone_price = 119.95;

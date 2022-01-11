@@ -1,3 +1,8 @@
+/* Change the page with JavaScript
+
+Change the text of all paragraphs and headers with javascript
+Note:The html must not be changed */
+
 let firsth1 = document.getElementById("myTitle");
 firsth1.innerText = "I changed the text, and it is still a cool page!";
 

@@ -1,3 +1,10 @@
+/* Write a javascript function for an ATM:
+The ATM should give cash
+Should return "Not enough money" if you request more money
+Should return the ammount withdrawn and money left on the account if you have enough
+Note: Hardcode your account money in the program
+Bonus: Make it work with prompt()!*/
+
 let currentBalance = 10000;
 
 function withdraw (money) {

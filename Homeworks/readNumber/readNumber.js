@@ -1,4 +1,10 @@
-                
+/* Create a web page that can convert a number entered in an input in digits to the same number in words. The result should be printed on the page. The converter should convert to at least a trillion.
+
+Input: 0		Result: zero
+Input: 13		Result: thirteen 	
+Input: 345		Result: three hundred forty-five
+Input: 20056	    Result: twenty thousand fifty-six */
+
 const zeroToNineteen = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"];
 
 const twentyToNinety = [null, null, "twenty","thirty", "fourty", "fifty", "sixty", "seventy", "eighty", "ninety"];
