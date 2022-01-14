@@ -1,0 +1,70 @@
+table {
+    height: 90vh;
+    width: 25vw;
+}
+
+table, #memory, #result {
+    border: 2px solid darkgray;
+    background-color: black;
+}
+
+td {
+    width: 25%;
+    height: 15%;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#memory {
+    background-color: #D4D4D2;
+    height: 10%;
+    width: 25%;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#result {
+    background-color: #D4D4D2;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.operators {
+    color: darkred;
+}
+
+.digits {
+    color: black;
+}
+
+.digit {
+    color: white;
+    background-color: #505050;
+    transition: 0.25s;
+}
+
+.digit:hover {
+    /* font-size: 4.5em; */
+    background-color: dimgrey;
+}
+
+.operator {
+    color: white;
+    background-color: #FF9500;
+    transition: 0.25s;
+}
+
+.operator:hover {
+    background-color: #FFBF66;
+}
+
+.operator, .digit {
+    border: 1px solid black;
+    border-radius: 50%;
+}
