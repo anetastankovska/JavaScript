@@ -11,7 +11,6 @@ If the person enters an invalid color or an empty text show an error message to 
 */
 
 let inputText = $("input").first();
-console.log(inputText);
 let inputColor = $("input:last");
 let displayTextElement = $("h1");
 let button = $("button");
