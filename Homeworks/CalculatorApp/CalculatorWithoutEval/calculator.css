@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 table {
     height: 90vh;
     width: 25vw;
+    min-width: 400px;
+    max-width: 400px;
 }
 
 table, #memory, #result {
@@ -26,45 +30,43 @@ button {
     height: 10%;
     width: 25%;
     font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #result {
     background-color: #D4D4D2;
     font-size: 3em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.operators {
-    color: darkred;
-}
-
-.digits {
-    color: black;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .digit {
     color: white;
     background-color: #505050;
+    border: 1px solid black;
+    border-radius: 50%;
     transition: 0.25s;
 }
 
 .digit:hover {
-    /* font-size: 4.5em; */
     background-color: dimgrey;
 }
 
 .operator {
     color: white;
     background-color: #FF9500;
+    border: 1px solid black;
+    border-radius: 50%;
     transition: 0.25s;
 }
 
-.operator:hover {
+.operator:hover, #period:hover, #equals:hover {
     background-color: #FFBF66;
 }
 
-.operator, .digit {
+#period, #equals { 
+    color: white;
+    background-color: #FF9500;
     border: 1px solid black;
     border-radius: 50%;
+    transition: 0.25s;
 }
